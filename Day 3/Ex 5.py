@@ -1,0 +1,21 @@
+from unicodedata import name
+
+
+print("Welcome to the Love Calculator.")
+name1 = input("What is your name?")
+name2 = input("What is your name?")
+nc1 = name1.lower().count("t")
+nc1 = nc1+name1.lower().count("r")
+nc1 = nc1+name1.lower().count("u")
+nc1 = nc1+name1.lower().count("e")
+nc1 = nc1+name1.lower().count("l")
+nc1 = nc1+name1.lower().count("o")
+nc1 = nc1+name1.lower().count("v")
+nc2 = name2.lower().count("t")
+nc2 = nc2+name2.lower().count("r")
+nc2 = nc2+name2.lower().count("u")
+nc2 = nc2+name2.lower().count("e")
+nc2 = nc2+name2.lower().count("l")
+nc2 = nc2+name2.lower().count("o")
+nc2 = nc2+name2.lower().count("v")
+print(str(nc1)+str(nc2))
